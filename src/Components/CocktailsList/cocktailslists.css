@@ -1,0 +1,29 @@
+.wrong-keyword {
+    text-align: center;
+    margin-top: 15rem;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .cocktails-center {
+    width: 85vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  @media screen and (min-width: 576px) {
+    .cocktails-center {
+      grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+    }
+  }
